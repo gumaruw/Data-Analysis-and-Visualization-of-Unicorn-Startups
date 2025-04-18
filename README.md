@@ -76,8 +76,8 @@ By the end of this project, we were able to:
 4. Run the notebook step-by-step
 
 ```bash
-git clone https://github.com/gumaruw/unicorn-companies-analysis.git
-cd unicorn-companies-analysis
+git clone https://github.com/gumaruw/Unicorn-Companies-Missing-Data-Handling.git
+cd Unicorn-Companies-Missing-Data-Handling
 jupyter notebook
 ```
 
