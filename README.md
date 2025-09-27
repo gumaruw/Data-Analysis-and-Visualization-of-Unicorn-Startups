@@ -1,14 +1,13 @@
 # Unicorn Companies Missing Data Handling
 
-This project was completed as part of my scholarship in the Data Science program at the Artificial Intelligence and Technology Academy. It was undertaken within the scope of the "Go Beyond the Numbers: Translate Data into Insights" chapter of the Google Advanced Data Analytics course.
+This project was completed as part of my scholarship in the Data Science program at the Artificial Intelligence and Technology Academy. Focuses on analyzing unicorn company data with an emphasis on handling missing values in funding, valuation, and geographic information.
 
 ## Overview
 
-This project involves data analysis with a focus on handling missing data within a dataset related to unicorn companies, including their funding, valuation, and geographic distribution. The primary objectives were to:
-
-- Detect and handle missing data effectively.
-- Visualize key insights, such as the highest valued countries and the sectors that attract investors.
-- Understand the impact of missing data handling techniques on the analysis results.
+Objectives:  
+- Detect and handle missing data efficiently  
+- Visualize key insights, such as top-valued countries and investor-attractive sectors  
+- Assess the impact of missing data handling on analysis
 
 ## Dataset
 
@@ -30,27 +29,16 @@ This project involves data analysis with a focus on handling missing data within
 
 ## Key Steps
 
-- **Missing Data Detection**  
-  Missing data was identified using the `isna()` function, and rows containing at least one missing value were filtered using `any(axis=1)`.
-
-- **Handling Missing Data**  
-  - Dropped rows with minimal missing values.  
-  - Imputed missing values in certain columns (e.g., Funding, Select Investors) with default values or categories.  
-  - Explored alternative imputation methods such as mean/mode or predictive models.
-
-- **Data Visualization**  
-  - Valuation of unicorns by country using circle charts where size represents total valuation.  
-  - Analyzed highest performing regions, focusing on Europe and the Middle East.
-
-- **Analysis Results**  
-  - Identified 17 companies meeting investor criteria.  
-  - Highest total valuations observed in the USA, China, India, the UK, and Germany.
+- **Missing Data Detection:** Used `isna()` and filtered rows with `any(axis=1)`  
+- **Handling Missing Data:** Dropped minimal missing rows, imputed others, explored mean/mode or predictive imputation  
+- **Data Visualization:** Valuation by country (circle charts), analyzed top regions (Europe, Middle East)  
+- **Analysis Results:** 17 companies met investor criteria; highest valuations in USA, China, India, UK, Germany
 
 ## Example Insights
 
-- Europe and the Middle East show high activity in terms of unicorns and investor interest.  
-- Row deletion for missing data resulted in less data loss than column deletion.  
-- Imputed values were mostly reasonable but may require manual verification for accuracy.
+- Europe and Middle East show high unicorn activity and investor interest  
+- Row deletion causes less data loss than column deletion  
+- Imputed values are reasonable but may need manual checks
 
 ## How to Run
 
