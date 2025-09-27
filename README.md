@@ -3,8 +3,7 @@
 This project was completed as part of my scholarship in the Data Science program at the Artificial Intelligence and Technology Academy. Focuses on analyzing unicorn company data with an emphasis on handling missing values in funding, valuation, and geographic information.
 
 ## Overview
-
-Objectives:  
+ 
 - Detect and handle missing data efficiently  
 - Visualize key insights, such as top-valued countries and investor-attractive sectors  
 - Assess the impact of missing data handling on analysis
